@@ -28,3 +28,5 @@ Thumbs.db
 
 # Misc
 *.log
+*.sh  text eol=lf
+*.ps1 text eol=crlf
