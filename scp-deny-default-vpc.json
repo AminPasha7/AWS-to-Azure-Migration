@@ -1,0 +1,10 @@
+﻿{
+  "Version": "2012-10-17",
+  "Statement": [
+    { "Sid": "DenyCreateDefaultVpc",
+      "Effect": "Deny",
+      "Action": ["ec2:CreateDefaultVpc","ec2:CreateDefaultSubnet"],
+      "Resource": "*"
+    }
+  ]
+}
